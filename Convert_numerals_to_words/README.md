@@ -17,11 +17,11 @@ Python 3
 Go to the location of the [convert_num_word.py](convert_num_word.py) on the command line. To run it enter the following.
 On Windows:
 ```
-python blackjack.py
+python convert_num_word.py
 ```
 On Linux/Mac:
 ```
-python3 blackjack.py
+python3 convert_num_word.py
 ```
 ### Built with
 * Python
