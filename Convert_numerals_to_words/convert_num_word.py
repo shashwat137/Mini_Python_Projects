@@ -16,7 +16,7 @@ def get_words(num):
                    'Undecillion', 'Duodecillion', 'Tredecillion', 'Quattuordecillion', 'Quindecillion', 'Hexdecillion', 'Septendecillion', 'Octodecillion', 'Novemdecillion',
                    'Vigintillion', 'Unvigintillion', 'Duovigintillion', 'Trevigintillion', 'Quattourvigintillion', 'Quinvigintillion', 'Hexvigintillion', 'Septenvigintillion',
                    'Octovigintillion', 'Novemvigintillion', 'Trigintillion', 'Untrigintillion', 'Duotrigintillion',
-                   , '']
+                   '']
 
     word = ''
     i = len(num) - 1
