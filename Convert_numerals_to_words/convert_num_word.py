@@ -7,12 +7,16 @@ def get_words(num):
     Takes a number in a string and makes it returns it in words in a string.
     '''
 
-    minimal_digit = {1:'one', 2:'two', 3:'three', 4:'four', 5:'five', 6:'six', 7:'seven', 8:'eight', 9:'nine', 10:'ten',
-    11:'eleven', 12:'twelve', 13:'thirteen', 14:'fourteen', 15:'fifteen', 16:'sixteen', 17:'seventeen', 18:'eighteen', 19:'nineteen'}
+    minimal_digit = {1:'One', 2:'Two', 3:'Three', 4:'Four', 5:'Five', 6:'Six', 7:'Seven', 8:'Eight', 9:'Nine', 10:'Ten',
+    11:'Eleven', 12:'Twelve', 13:'Thirteen', 14:'Fourteen', 15:'Fifteen', 16:'Sixteen', 17:'Seventeen', 18:'Eighteen', 19:'Nineteen'}
 
-    tens_digit = {2:'twenty', 3:'thirty', 4:'forty', 5:'fifty', 6:'sixty', 7:'seventy', 8:'eighty', 9:'ninety'}
+    tens_digit = {2:'Twenty', 3:'Thirty', 4:'Forty', 5:'Fifty', 6:'Sixty', 7:'Seventy', 8:'Eighty', 9:'Ninety'}
 
-    large_digit = ['hundred', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'hextillion', 'septillion', 'octillion', 'nonillion', 'Decillion', '']
+    large_digit = ['Hundred', 'Thousand', 'Million', 'Billion', 'Trillion', 'Quadrillion', 'Quintillion', 'Hextillion', 'Septillion', 'Octillion', 'Nonillion', 'Decillion',
+                   'Undecillion', 'Duodecillion', 'Tredecillion', 'Quattuordecillion', 'Quindecillion', 'Hexdecillion', 'Septendecillion', 'Octodecillion', 'Novemdecillion',
+                   'Vigintillion', 'Unvigintillion', 'Duovigintillion', 'Trevigintillion', 'Quattourvigintillion', 'Quinvigintillion', 'Hexvigintillion', 'Septenvigintillion',
+                   'Octovigintillion', 'Novemvigintillion', 'Trigintillion', 'Untrigintillion', 'Duotrigintillion',
+                   , '']
 
     word = ''
     i = len(num) - 1
