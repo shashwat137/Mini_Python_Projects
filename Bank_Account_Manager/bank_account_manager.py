@@ -15,6 +15,7 @@ class Account():
     def __init__(self,name, account_number):
         '''
         name will be a string.
+        account number will be an integer.
         '''
         self.name = name
         self.balance = 0 # Will hold amount of money present.
