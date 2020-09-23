@@ -2,11 +2,10 @@ import tkinter as tk
 
 def convert():
     try:
-        lbl_value['text'] = f"{float( ( float(ent.get()) - 32) * 5 / 9):.4f} \N{DEGREE CELSIUS}"
+        lbl_value['text'] = f"{float((float(ent.get())-32)*5/9):.4f} \N{DEGREE CELSIUS}"
     except:
         lbl_value['text'] = f"****** \N{DEGREE CELSIUS}"
     return
-
 
 window = tk.Tk()
 window.title("Temperature Converter")
@@ -27,7 +26,5 @@ btn_1.grid(row=0, column=2, padx=15)
 
 lbl_value = tk.Label(master=frm, text=f"\N{DEGREE CELSIUS}")
 lbl_value.grid(row=0, column=3,sticky='e',ipady=5)
-
-
 
 window.mainloop()
